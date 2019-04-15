@@ -2,13 +2,16 @@
   "version": "0.1.0",
   "scripts": {
     "start": "npm run watch",
-    "watch": "npm run watch:docs",
+    "watch": "npm run watch:lint & npm run watch:docs",
+    "watch:lint": "exec-on-changed -d ./docs -f ./bin/lint.sh",
     "watch:docs": "exec-on-changed -d ./docs -f ./bin/stat.sh"
   },
   "author": "shun@getto.systems",
   "license": "MIT",
   "devDependencies": {
-    "exec-on-changed": "^1.2.0"
+    "exec-on-changed": "^1.2.0",
+    "textlint": "^11.2.3",
+    "textlint-rule-preset-ja-technical-writing": "^3.1.2"
   },
   "dependencies": {}
 }
