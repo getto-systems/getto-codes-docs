@@ -2,9 +2,9 @@
 
 documents of GETTO Codes
 
-![files](data/files.svg)
-![lines](data/lines.svg)
-![hierarchy](data/hierarchy.svg)
+![files](raw/master/data/files.svg)
+![lines](raw/master/data/lines.svg)
+![hierarchy](raw/master/data/hierarchy.svg)
 
 
 ###### Table of Contents
