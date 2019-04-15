@@ -3,7 +3,6 @@
 getto_codes_docs_stat_main(){
   local target_dir
   local target
-  local data_root
   local limit_files
   local limit_lines
   local limit_hierarchy
@@ -22,8 +21,6 @@ getto_codes_docs_stat_main(){
 
   target_dir=$1; shift
   target=$1; shift
-
-  data_root=$APP_ROOT/data
 
   limit_files=20
   limit_lines=80
@@ -89,6 +86,7 @@ getto_codes_docs_stat_dump_badge(){
   local avg_count
   local message
   local color
+  local url
 
   badge=$1; shift
   limit=$1; shift
@@ -112,7 +110,9 @@ getto_codes_docs_stat_dump_badge(){
     message=$avg_count
   fi
 
-  curl -s "https://img.shields.io/static/v1.svg?style=for-the-badge&label=${badge}&message=${message}&color=${color}" > ${data_root}/${badge}.svg
+  url='https://img.shields.io/static/v1.svg?style=for-the-badge\&label='${badge}'\&message='${message}'\&color='${color}
+  sed -i $APP_ROOT/README.md -e 's|^!\['$badge'\].*$|!['$badge']('$url')|'
+
   echo "${badge}: ${color}"
 }
 
