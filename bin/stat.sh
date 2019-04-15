@@ -107,7 +107,7 @@ getto_codes_docs_stat_dump_badge(){
       color=success
     fi
 
-    message=$avg_count
+    message=$min_count:$avg_count:$max_count
   fi
 
   url='https://img.shields.io/static/v1.svg?style=for-the-badge\&label='${badge}'\&message='${message}'\&color='${color}
