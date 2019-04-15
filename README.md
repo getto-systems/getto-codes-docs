@@ -3,7 +3,7 @@
 documents of GETTO Codes
 
 ![files](https://img.shields.io/static/v1.svg?style=for-the-badge&label=files&message=2&color=success)
-![lines](https://img.shields.io/static/v1.svg?style=for-the-badge&label=lines&message=10:10:10&color=success)
+![lines](https://img.shields.io/static/v1.svg?style=for-the-badge&label=lines&message=380:395:410&color=success)
 ![hierarchy](https://img.shields.io/static/v1.svg?style=for-the-badge&label=hierarchy&message=20:20:20&color=success)
 
 

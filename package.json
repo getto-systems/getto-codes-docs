@@ -4,7 +4,8 @@
     "start": "npm run watch",
     "watch": "npm run watch:lint & npm run watch:docs",
     "watch:lint": "exec-on-changed -d ./docs -f ./bin/lint.sh",
-    "watch:docs": "exec-on-changed -d ./docs -f ./bin/stat.sh"
+    "watch:docs": "exec-on-changed -d ./docs -f ./bin/stat.sh",
+    "test": "textlint docs"
   },
   "author": "shun@getto.systems",
   "license": "MIT",
