@@ -2,9 +2,9 @@
 
 documents of GETTO Codes
 
-![files](raw/master/data/files.svg)
-![lines](raw/master/data/lines.svg)
-![hierarchy](raw/master/data/hierarchy.svg)
+![files](https://img.shields.io/static/v1.svg?style=for-the-badge&label=files&message=2&color=success)
+![lines](https://img.shields.io/static/v1.svg?style=for-the-badge&label=lines&message=10&color=success)
+![hierarchy](https://img.shields.io/static/v1.svg?style=for-the-badge&label=hierarchy&message=40&color=success)
 
 
 ###### Table of Contents
