@@ -47,6 +47,7 @@ getto_codes_docs_stat_main(){
     max_lines=$max
 
     count=$(echo $file | sed 's|[^/]||g' | wc -c)
+    count=$(($count - 2))
     all=$all_hierarchy
     min=$min_hierarchy
     max=$max_hierarchy
