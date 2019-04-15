@@ -107,6 +107,9 @@ getto_codes_docs_stat_dump_badge(){
       color=success
     fi
 
+    min_count=$(($min_count * 10))
+    max_count=$(($max_count * 10))
+
     message=$min_count:$avg_count:$max_count
   fi
 
