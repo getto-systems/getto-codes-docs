@@ -1,5 +1,14 @@
 image: node:11.14.0-stretch
 
+test:
+  except:
+    - master
+    - release
+    - tags
+  script:
+    - npm install
+    - npm test
+
 release:
   only:
     - release@getto-systems-labo/codes/docs
