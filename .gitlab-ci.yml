@@ -1,0 +1,7 @@
+image: node:11.14.0-stretch
+
+release:
+  only:
+    - release@getto-systems-labo/codes/docs
+  script:
+    - ./bin/push_tags.sh
