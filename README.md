@@ -20,13 +20,14 @@ documents of GETTO Codes
 
 ## Usage
 
-### statistics
-
-- calc statistics and dump badge(powered by [shields.io](https://shields.io))
+### statistics and lint
 
 ```bash
 $ npm start
 ```
+
+- calc statistics and rewrite README badge (powered by [shields.io](https://shields.io))
+- textlint
 
 
 ## License
