@@ -15,8 +15,8 @@ documents of GETTO Codes
 
 ## Documents
 
-- [Docs](docs/docs)
-- [Elm](docs/elm)
+- [Docs](docs/docs/index.md)
+- [Elm](docs/elm/index.md)
 
 
 ## Usage
