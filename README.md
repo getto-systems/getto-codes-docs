@@ -16,7 +16,7 @@ documents of GETTO Codes
 ## Documents
 
 - [Docs](docs/docs/index.md)
-- [Elm](docs/elm/index.md)
+- [Elm](docs/elm/index.md) : [Codes](https://github.com/getto-systems/getto-codes-elm)
 
 
 ## Usage
