@@ -15,9 +15,9 @@ $ npm start
 編集したファイルの lint とそれに伴って変更した全体の statistics を README.md に書き込む。
 
 
-### lint の基準
+### statistics の基準
 
-以下を目的に lint を設定した。
+以下を目的に badge の色を設定した。
 
 - Document を書きやすくする
 - Document を読みやすくする
